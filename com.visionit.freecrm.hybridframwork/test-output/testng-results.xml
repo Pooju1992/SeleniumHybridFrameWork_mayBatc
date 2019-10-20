@@ -29,12 +29,12 @@
       <![CDATA[Test is about to end...]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="60365" started-at="2019-10-06T07:31:49Z" finished-at="2019-10-06T07:32:49Z">
+  <suite name="Default suite" duration-ms="61631" started-at="2019-10-11T09:54:51Z" finished-at="2019-10-11T09:55:53Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="60365" started-at="2019-10-06T07:31:49Z" finished-at="2019-10-06T07:32:49Z">
+    <test name="Default test" duration-ms="61631" started-at="2019-10-11T09:54:51Z" finished-at="2019-10-11T09:55:53Z">
       <class name="com.visionit.freecrm.com.visionit.freecrm.hybridframwork.testcases.LoginPageTc">
-        <test-method status="PASS" signature="intitialize()[pri:0, instance:com.visionit.freecrm.com.visionit.freecrm.hybridframwork.testcases.LoginPageTc@1794d431]" name="intitialize" is-config="true" duration-ms="1019" started-at="2019-10-06T07:31:48Z" finished-at="2019-10-06T07:31:49Z">
+        <test-method status="PASS" signature="intitialize()[pri:0, instance:com.visionit.freecrm.com.visionit.freecrm.hybridframwork.testcases.LoginPageTc@1794d431]" name="intitialize" is-config="true" duration-ms="1763" started-at="2019-10-11T09:54:49Z" finished-at="2019-10-11T09:54:51Z">
           <reporter-output>
             <line>
               <![CDATA[Initializing pre object like configData , excelData provider and html reports .. ]]>
@@ -44,7 +44,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- intitialize -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.visionit.freecrm.com.visionit.freecrm.hybridframwork.testcases.LoginPageTc@1794d431]" name="setUp" is-config="true" duration-ms="20046" started-at="2019-10-06T07:31:49Z" finished-at="2019-10-06T07:32:09Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.visionit.freecrm.com.visionit.freecrm.hybridframwork.testcases.LoginPageTc@1794d431]" name="setUp" is-config="true" duration-ms="20018" started-at="2019-10-11T09:54:51Z" finished-at="2019-10-11T09:55:11Z">
           <reporter-output>
             <line>
               <![CDATA[Before navigating to browser, we are getting the browsername to launch respective browser.. ]]>
@@ -63,7 +63,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="verifyloginToCrmProTest(java.lang.String, java.lang.String)[pri:4, instance:com.visionit.freecrm.com.visionit.freecrm.hybridframwork.testcases.LoginPageTc@1794d431]" name="verifyloginToCrmProTest" duration-ms="38523" started-at="2019-10-06T07:32:09Z" data-provider="getExcelData" finished-at="2019-10-06T07:32:47Z">
+        <test-method status="FAIL" signature="verifyloginToCrmProTest(java.lang.String, java.lang.String)[pri:4, instance:com.visionit.freecrm.com.visionit.freecrm.hybridframwork.testcases.LoginPageTc@1794d431]" name="verifyloginToCrmProTest" duration-ms="38217" started-at="2019-10-11T09:55:11Z" data-provider="getExcelData" finished-at="2019-10-11T09:55:49Z">
           <params>
             <param index="0">
               <value>
@@ -82,10 +82,10 @@
   (Session info: chrome=77.0.3865.90)
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
-System info: host: 'LAPTOP-19ENFF94', ip: '192.168.2.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+System info: host: 'LAPTOP-19ENFF94', ip: '192.168.0.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.90, chrome: {chromedriverVersion: 76.0.3809.25 (a0c95f440512e..., userDataDir: C:\Users\PRAMOD~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51730}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: c905bedb448f50d6823f72ba2fe7c4cf
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.90, chrome: {chromedriverVersion: 76.0.3809.25 (a0c95f440512e..., userDataDir: C:\Users\PRAMOD~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60605}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: f476b4ba576faa0c46670402950c069b
 *** Element info: {Using=xpath, value=/html/body/table[1]/tbody/tr[1]/td/table/tbody/tr/td[1]}]]>
             </message>
             <full-stacktrace>
@@ -93,10 +93,10 @@ Session ID: c905bedb448f50d6823f72ba2fe7c4cf
   (Session info: chrome=77.0.3865.90)
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
-System info: host: 'LAPTOP-19ENFF94', ip: '192.168.2.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+System info: host: 'LAPTOP-19ENFF94', ip: '192.168.0.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.90, chrome: {chromedriverVersion: 76.0.3809.25 (a0c95f440512e..., userDataDir: C:\Users\PRAMOD~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51730}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: c905bedb448f50d6823f72ba2fe7c4cf
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.90, chrome: {chromedriverVersion: 76.0.3809.25 (a0c95f440512e..., userDataDir: C:\Users\PRAMOD~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60605}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: f476b4ba576faa0c46670402950c069b
 *** Element info: {Using=xpath, value=/html/body/table[1]/tbody/tr[1]/td/table/tbody/tr/td[1]}
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
@@ -147,7 +147,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </line>
           </reporter-output>
         </test-method> <!-- verifyloginToCrmProTest -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.visionit.freecrm.com.visionit.freecrm.hybridframwork.testcases.LoginPageTc@1794d431]" name="tearDown" is-config="true" duration-ms="1740" started-at="2019-10-06T07:32:47Z" finished-at="2019-10-06T07:32:49Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.visionit.freecrm.com.visionit.freecrm.hybridframwork.testcases.LoginPageTc@1794d431]" name="tearDown" is-config="true" duration-ms="3291" started-at="2019-10-11T09:55:49Z" finished-at="2019-10-11T09:55:53Z">
           <params>
             <param index="0">
               <value>
